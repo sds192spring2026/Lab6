@@ -119,7 +119,7 @@ Sometimes we make changes to a few files and save them. To let Git know which ch
 
 Once you finish making local changes, save your changes. Once you save the file you’ll notice in the RStudio Git pane that the file name appears after a blue square labeled “M” (which stands for Modified). This means that the file is ready for staging. Stage the file - indicating that it’s ready for committing - by clicking the checkbox in front of the file name.
 
-![Stage](images/Lab7_stage.png)
+![Stage](images/stagecommit.png)
 
 ### Commit
 
@@ -147,7 +147,7 @@ On your repo’s page in GitHub.com, click the “Pull Requests” tab, and then
 
 Once both group members have been fine with changes, we are ready to merge those changes into the main branch. Open each pull request. If everything is good and ready to merge, you will see a green checkmark that says “This branch has no conflicts with the base branch.” Click the button to “Merge Pull Request” and then click the button "Confirm merge".
 
-![merge](images/Lab7_merge.png)
+![merge](images/mergepullrequest.png)
 
 ### Double Check Your Submission
 
