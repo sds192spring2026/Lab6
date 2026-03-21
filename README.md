@@ -1,4 +1,4 @@
-# Lab7
+# Lab6
 
 *Due Wednesday 4/1 at 9pm.*
 
