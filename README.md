@@ -97,7 +97,7 @@ Click on the Code tab on your repo’s page at GitHub.com. Directly below this t
 
 As of right now, the branches that were created in the previous step only exist on GitHub.com, they don’t exist yet on your local machine. To get these changes to your local machine, you need to pull the changes. When we pull changes to our local machines, we are basically saying, check that remote version for changes, and then pull them into the repo on my computer.
 
-Head back to RStudio -- your Lab7 project. In the Environment pane, you will notice a tab labeled “Git”. This is your RStudio command center for Git and GitHub. When you click on this tab, you will see a few buttons in the navigation bar. To pull changes, you should click the blue downward arrow. Click this button to pull the branches created remotely to your local machine.
+Head back to RStudio -- your Lab6 project. In the Environment pane, you will notice a tab labeled “Git”. This is your RStudio command center for Git and GitHub. When you click on this tab, you will see a few buttons in the navigation bar. To pull changes, you should click the blue downward arrow. Click this button to pull the branches created remotely to your local machine.
 
 ![Pull](images/Lab7_pull-button.png)
 
@@ -111,7 +111,7 @@ In the top right hand corner of the Git tab, you will see a dropdown currently s
 
 ### Make Changes
 
-Once you are in your branch, following the instructions in the Lab7.qmd file, group leader needs to copy and paste the solution code in Lec13 Post-class Exercise in Step 2 Part a); group partner needs to copy and paste the solution code in Lec13 Post-class Exercise in Step 4.
+Once you are in your branch, following the instructions in the Lab6.qmd file, group leader needs to copy and paste the solution code in Lec15 Post-class Exercise in Ex 1 and Ex 2; group partner needs to copy and paste the solution code in Lec15 Post-class Exercise in Ex 3 and Ex 4.
 
 ### Stage
 
@@ -129,15 +129,15 @@ To get a sense of what it means to be able to look back on these changes, check 
 
 ![Commit](images/Lab7_commit.png)
 
-Commit your changes by clicking the ‘Commit’ button in the Git pane. When you click this button, a new window will open showcasing the changes that have been made to the staged file. You should enter a commit message in the window that appears. Remember that commit messages should be descriptive. In this case, something like “added Step 2 (Step 4) of Lab7” would work. Click commit. 
+Commit your changes by clicking the ‘Commit’ button in the Git pane. When you click this button, a new window will open showcasing the changes that have been made to the staged file. You should enter a commit message in the window that appears. Remember that commit messages should be descriptive. In this case, something like “added Ex 1 and Ex 2 of Lab6” would work. Click commit. 
 
 ### Push
 
-When you are in your own branch, you can commit, pull, and push all you want with no fear of merge conflicts even if everyone is working on the same file! Once both group members have pushed their changes, head back over to GitHub. On the main code page, switch between branches and check out the contents of Lab7.qmd in each branch. What differences do you notice?
+When you are in your own branch, you can commit, pull, and push all you want with no fear of merge conflicts even if everyone is working on the same file! Once both group members have pushed their changes, head back over to GitHub. On the main code page, switch between branches and check out the contents of Lab6.qmd in each branch. What differences do you notice?
 
 ### Pull Request
 
-Note that now we have a few versions of our repo in separate branches on GitHub.com, and in each of those versions of the repo, the Lab7.qmd file looks a little bit different. Now that we’ve made our changes and things are stable and polished, we want to move all of those changes into the main branch. To do this, we are going to issue a **Pull Request**. This is a request that signals to all of our collaborators that we are ready to move our changes back into the main branch.
+Note that now we have a few versions of our repo in separate branches on GitHub.com, and in each of those versions of the repo, the Lab6.qmd file looks a little bit different. Now that we’ve made our changes and things are stable and polished, we want to move all of those changes into the main branch. To do this, we are going to issue a **Pull Request**. This is a request that signals to all of our collaborators that we are ready to move our changes back into the main branch.
 
 On your repo’s page in GitHub.com, click the “Pull Requests” tab, and then click the green “New Pull Request” button. You’re requesting to pull the changes from your personal branch into the main branch. This means that the *base* branch should be main, and the *compare* branch should be your personal branch. You’ll see a screen where you can compare your branch to the main branch. Click the button to “Create Pull Request,” enter a descriptive title of the changes made, and then click “Create Pull Request” again.
 
@@ -151,7 +151,7 @@ Once both group members have been fine with changes, we are ready to merge those
 
 ### Double Check Your Submission
 
-Once both of you have confirmed merge, head to the Lab7.qmd file in the main branch of your group repo on GitHub.com and double check if all the changes both of you have made are shown up in the submission.
+Once both of you have confirmed merge, head to the Lab6.qmd file in the main branch of your group repo on GitHub.com and double check if all the changes both of you have made are shown up in the submission.
 
 ## Assessment
 
@@ -159,7 +159,7 @@ You will be evaluated on the completion of your lab.
 
 In this assignment, the following standards will be assessed (the number in () indicates the maximum points you can earn for a paticulrar standard for this lab):
 
-GITHUB (0.22)
+GITHUB (0.33)
 
 ---
 ## Troubleshooting Common Issues
