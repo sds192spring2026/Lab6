@@ -1,6 +1,6 @@
 # Lab7
 
-*Due Wednesday 11/6 at 9pm.*
+*Due Wednesday 4/1 at 9pm.*
 
 ## Introduction
 
