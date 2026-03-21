@@ -1,0 +1,57 @@
+---
+title: "SDS192 Lab 6"
+author: WRITE GROUP LEADER NAME HERE | WRITE PARTNER NAME HERE
+output:
+  html_document
+---
+
+```{r, include=FALSE}
+# Do not edit this code block/chunk
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE)
+```
+
+# Today's Dataset
+
+Recall the elections data by U.S. county we used in the Lec 02 Post-class Exercise: Scatterplots. 
+
+```{r}
+library(tidyverse)
+elections <- read.csv("https://mac-stat.github.io/data/election_2020_county.csv")
+```
+
+# Ex 1: Select Columns - Group Leader
+
+1. Store this dataset as elections_small.
+2. Only keep the following variables: state_name, county_name, total_votes_20, repub_pct_20, dem_pct_20, total_votes_16, dem_pct_16
+
+```{r}
+# Write your code below
+
+```
+
+# Ex 2: Filter Rows - Group Leader
+
+Keep only data on counties in Hawaii and Delaware.
+
+```{r}
+# Write your code below
+
+```
+
+# Ex 3: `arrange()` - Group Partner
+
+Arrange the counties in `elections_small` from lowest to highest percentage of 2020 Republican support and print out just the first 6 rows
+
+```{r}
+# Write your code below
+
+```
+
+# Ex 4: `mutate()` - Group Partner
+
+Create a variable that calculates the change in Dem support in 2020 vs 2016
+
+```{r}
+# Write your code below
+
+```
