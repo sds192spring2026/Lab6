@@ -29,9 +29,35 @@ elections <- read.csv("https://mac-stat.github.io/data/election_2020_county.csv"
 
 ```
 
+```{r}
+# Check out the first 6 rows to confirm your code did what you think it did!
+head(elections_small)
+```
+
 # Ex 2: Filter Rows - Group Leader
 
 Keep only data on counties in Hawaii and Delaware.
+
+```{r}
+# Write your code below
+
+```
+
+Keep only data on counties where the Republican got MORE THAN 93.97% of the vote in 2020.
+
+```{r}
+# Write your code below
+
+```
+
+Keep only data on counties where the Republican got AT LEAST 93.97% of the vote in 2020.
+
+```{r}
+# Write your code below
+
+```
+
+Keep only data on counties in Texas where the Democrat got more than 65% of the vote in 2020.
 
 ```{r}
 # Write your code below
@@ -47,9 +73,23 @@ Arrange the counties in `elections_small` from lowest to highest percentage of 2
 
 ```
 
+Arrange the counties in elections_small from highest to lowest percentage of 2020 Republican support and print out just the first 6 rows
+
+```{r}
+# Write your code below
+
+```
+
 # Ex 4: `mutate()` - Group Partner
 
 Create a variable that calculates the change in Dem support in 2020 vs 2016
+
+```{r}
+# Write your code below
+
+```
+
+Create a variable that determines whether the Dem support was higher in 2020 than in 2016 (TRUE/FALSE)
 
 ```{r}
 # Write your code below
