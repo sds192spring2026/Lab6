@@ -1,0 +1,65 @@
+---
+title: "SDS192 Lab 7"
+author: Section WRITE YOUR SECTION NUMBER HERE - WRITE GROUP LEADER NAME HERE | WRITE PARTNER NAME HERE
+output:
+  html_document
+---
+
+```{r, include=FALSE}
+# Do not edit this code block/chunk
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE)
+```
+
+# Step 1: Install and Load Packages
+
+In your console install the `babynames` package and the `fivethirtyeight` package:
+
+`install.packages("babynames")`
+`install.packages("fivethirtyeight")`
+
+Then load the packages for this lab by running the code below. 
+
+```{r}
+library(tidyverse)
+library(babynames)
+library(fivethirtyeight)
+```
+
+# `babynames` - Group Leader
+
+The `babynames` dataset contains for each year from 1880 to 2017 the number of children of each sex given each name (as recorded by the US Social Security Administration). All names with more than 5 uses are given.
+
+For this lab, we’ll restrict consideration to only the names “Riley” and “Casey”. Consider the following visualization:
+
+(Full size image in the images folder.)
+
+![](images/babynames.png)
+
+# Step 2: Recreate the Given Image Above
+
+## Part a)
+
+Perform the data wrangling necessary to transform the `babynames` data frame included in the `babynames` package into a new data frame called `babynames_riley_casey` that will allow us to create the visualization.
+
+**Hint**: I recommend you first draw on a piece of paper what the data frame should look like; that way you'll know what your target looks like and when you've hit it.
+
+```{r}
+# Copy and paste the solution code in Lec13 Post-class Exercise below
+
+```
+
+# `fivethirtyeight` - Group Partner
+
+In this lab, you'll be analyzing the age of members of the United States congress over the years. The data of interest is saved in the `congress_age` data frame included in the `fivethirtyeight` package. To understand the data's context, first read:
+
+* The original FiveThirtyEight [article](https://fivethirtyeight.com/features/both-republicans-and-democrats-have-an-age-problem/) the data was used in. In particular the first visualization titled "Average Age of Members of Congress"
+* The help file for the `congress_age` data frame by running `??congress_age` in the console.
+
+# Step 4: Data Wrangling 1
+
+Take the `congress_age` data frame and perform the data wrangling necessary to create the first visualization in the article. Save the output in a data frame called `avg_congress_age`. Hint: `avg_congress_age` should have 68 rows and 3 variables: `termstart`, `party`, and `mean_age`.
+
+```{r}
+# Copy and paste the solution code in Lec13 Post-class Exercise below
+
+```
